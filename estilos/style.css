@@ -67,7 +67,7 @@ menu > nav > ul > li > a:hover {
 }
 
 .header-article {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 30px;
 }
 
@@ -79,4 +79,15 @@ menu > nav > ul > li > a:hover {
 
 h1 {
   margin-left: 70px;
+}
+
+.welcome {
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+article > section > p {
+  padding: 15px 0px;
 }
