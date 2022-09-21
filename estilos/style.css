@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor0: #000000; 
+  --cor1: #16191e;
+  --cor2: #6f6f6f;
+  --cor3: #a7a7a7;
+  --cor4: #dddddd;
+  --cor5: #ffffff;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  background-color: var(--cor1);
+}
+
+/*menu {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--cor0);
+}
+
+menu {
+  display: block;
+  z-index: -100;
+}
+
+.menu-itens {
+  list-style: none;
+}
+
+menu > nav > ul > li > a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #000000af;
+  color: var(--cor3);
+}
+
+menu > nav > ul > li > a:hover {
+  color: var(--cor4);
+}*/
+
+.container-backgorund {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagens/tela-inicio___400x760.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-article {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--cor5);
+}
+
+.header-article {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.h3welcome {
+  padding-bottom: 10px;
+  margin-left: 40px;
+  color: var(--cor3);
+}
+
+h1 {
+  margin-left: 70px;
+}
