@@ -13,6 +13,8 @@
   --cor3: #a7a7a7;
   --cor4: #dddddd;
   --cor5: #ffffff;
+  --cor6: #f5a637;
+  --cor7: #F3D878;
 }
 
 .header {
@@ -54,8 +56,8 @@ menu > nav > ul > li > a:hover {
 .container-backgorund {
   width: 100%;
   height: 100vh;
-  background-image: url(../imagens/tela-inicio___400x760.svg);
-  background-position: right top;
+  background-image: url(../imagens/teste.svg);
+  background-position:center top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -71,23 +73,67 @@ menu > nav > ul > li > a:hover {
   margin-bottom: 30px;
 }
 
-.h3welcome {
+.h3-welcome {
   padding-bottom: 10px;
   margin-left: 40px;
   color: var(--cor3);
+  font-size: 20px;
 }
 
 h1 {
   margin-left: 70px;
+  font-size: 28px;
 }
 
-.welcome {
-  margin-left: 10px;
-  margin-top: 40px;
-  margin-right: 10px;
-  margin-bottom: 40px;
+.p-welcome {
+  margin: 40px 0px 85px 0px;
+  text-align: justify;
+}
+.p-ident {
+  text-indent: 25px;
 }
 
 article > section > p {
   padding: 15px 0px;
+  font-size: 18px;
+  margin: 0px 10px 0px 10px;
+}
+
+.container-background2{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagens/fogaça4___425x934.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.the-sal {
+  background-color: var(--cor0);
+  color: var(--cor5);
+  padding: 85px 0px 40px 0px;
+}
+
+.the-sal > p {
+  text-align: justify;
+}
+
+.h2-the-sal {
+  padding-bottom: 20px;
+  margin-left: 150px;
+  color: var(--cor7);
+}
+
+.img-the-sal {
+  display: block;
+  margin: auto;
+  width: 94.6%;
+  border-radius: 10px;
+  }
+
+.the-sal2 {
+  background-color: var(--cor0);
+  color: var(--cor5);
+  padding: 40px 0px 85px 0px;
+  text-align: justify;
 }
