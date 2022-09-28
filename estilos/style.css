@@ -69,8 +69,9 @@ menu > nav > ul > li > a:hover {
 }
 
 .header-article {
-  margin-top: 100px;
-  margin-bottom: 30px;
+  background-color: var(--cor5);
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 
 .h3-welcome {
@@ -86,7 +87,8 @@ h1 {
 }
 
 .p-welcome {
-  margin: 40px 0px 85px 0px;
+  background-color: var(--cor5);
+  padding: 40px 10px 85px 10px;
   text-align: justify;
 }
 .p-ident {
@@ -99,7 +101,7 @@ article > section > p {
 }
 
 .container-background2{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url(../imagens/fogaça4___425x934.svg);
   background-position: right top;
@@ -118,8 +120,9 @@ article > section > p {
 }
 
 .h2-the-sal {
+  text-align: center;
   padding-bottom: 20px;
-  margin-left: 150px;
+  margin:auto;
   color: var(--cor7);
 }
 
