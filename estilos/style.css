@@ -15,6 +15,7 @@
   --cor5: #ffffff;
   --cor6: #f5a637;
   --cor7: #F3D878;
+  --cor8: #89F378;
 }
 
 .header {
@@ -90,8 +91,6 @@ h1 {
   background-color: var(--cor5);
   padding: 40px 10px 85px 10px;
   text-align: justify;
-}
-.p-ident {
   text-indent: 25px;
 }
 
@@ -103,7 +102,7 @@ article > section > p {
 .container-background2{
   width: 100vw;
   height: 100vh;
-  background-image: url(../imagens/fogaça4___425x934.svg);
+  background-image: url(../imagens/fogaça.svg);
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,6 +119,7 @@ article > section > p {
 }
 
 .h2-the-sal {
+  font-size: 28px;
   text-align: center;
   padding-bottom: 20px;
   margin:auto;
@@ -137,4 +137,58 @@ article > section > p {
   color: var(--cor5);
   padding: 0px 10px 85px 10px;
   text-align: justify;
+}
+
+.menu-food {
+  text-align: center;
+  padding: 100px 10px 85px 10px;
+}
+
+.menu-food > h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: var(--cor3)
+}
+
+.menu-food > h2 {
+  font-size: 28px;
+  padding-bottom: 100px;
+}
+
+.menu-food > ul > li {
+  color: var(--cor0);
+  font-size: 16px;
+  padding: 15px 0px;
+  text-decoration: none;
+}
+
+.brazilian-cuisine {
+  background-color: var(--cor0);
+  color: var(--cor5);
+  padding: 0px 10px 85px 10px;
+  text-align: justify;
+}
+
+.brazilian-cuisine > h2 {
+  font-size: 24px;
+  padding: 130px 0px 0px 55px;
+  color: var(--cor7);
+}
+
+.brazilian-cuisine > h3 {
+  font-size: 24px;
+  padding: 10px 0px 0px 100px;
+  color: var(--cor8);
+}
+
+.p1-brazilian-cousine {
+  text-indent: 25px;
+  padding: 90px 0px 20px 0px;
+  color: var(--cor3);
+}
+
+.p2-brazilian-cousine {
+  text-indent: 25px;
+  padding: 20px 0px 20px 0px;
+  color: var(--cor3);
 }
