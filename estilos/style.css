@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: 'roadrage';
+  src: url('../font/road-rage.otf') format('opentype');
+}
+
 *{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -83,8 +88,10 @@ menu > nav > ul > li > a:hover {
 }
 
 h1 {
+  font-family: 'roadrage', sans-serif;
+  font-weight: lighter;
   margin-left: 70px;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .p-welcome {
@@ -99,6 +106,8 @@ article > section > p {
   font-size: 18px;
 }
 
+/* fim welcome */
+
 .container-background2{
   width: 100vw;
   height: 100vh;
@@ -107,6 +116,8 @@ article > section > p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* inicio O SAL */
 
 .the-sal {
   background-color: var(--cor0);
@@ -119,9 +130,11 @@ article > section > p {
 }
 
 .h2-the-sal {
+  font-family: 'roadrage', sans-serif;
+  font-weight: lighter;
   font-size: 28px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   margin:auto;
   color: var(--cor7);
 }
@@ -132,12 +145,23 @@ article > section > p {
   border-radius: 10px;
   }
 
+  /* fim O SAL*/
+  /* Inicio O SAL 2 */
+
 .the-sal2 {
   background-color: var(--cor0);
   color: var(--cor5);
   padding: 0px 10px 85px 10px;
   text-align: justify;
 }
+
+.last-p-the-sal2 {
+  padding-top: 55px;
+}
+
+/* fim O SAL 2 */
+
+/* Inicio MENU */
 
 .menu-food {
   text-align: center;
@@ -151,7 +175,9 @@ article > section > p {
 }
 
 .menu-food > h2 {
-  font-size: 28px;
+  font-family: 'roadrage', sans-serif;
+  font-weight: lighter;
+  font-size: 38px;
   padding-bottom: 100px;
 }
 
@@ -162,33 +188,42 @@ article > section > p {
   text-decoration: none;
 }
 
+/*Fim MENU */
+
+/*Inicio Cozinha Brasileira */
+
 .brazilian-cuisine {
   background-color: var(--cor0);
   color: var(--cor5);
-  padding: 0px 10px 85px 10px;
+  padding: 100px 10px 85px 10px;
   text-align: justify;
 }
 
 .brazilian-cuisine > h2 {
+  font-family: 'roadrage', sans-serif;
+  font-weight: lighter;
   font-size: 24px;
-  padding: 130px 0px 0px 55px;
+  padding-left: 14.03%;
   color: var(--cor7);
 }
 
 .brazilian-cuisine > h3 {
+  font-family: 'roadrage', sans-serif;
+  font-weight: lighter;
   font-size: 24px;
-  padding: 10px 0px 0px 100px;
+  padding-top: 10px;
+  padding-left: 25.51%;
   color: var(--cor8);
 }
 
 .p1-brazilian-cousine {
   text-indent: 25px;
-  padding: 90px 0px 20px 0px;
+  padding: 70px 0px 20px 0px;
   color: var(--cor3);
 }
 
 .p2-brazilian-cousine {
   text-indent: 25px;
-  padding: 20px 0px 20px 0px;
+  padding: 55px 0px 20px 0px;
   color: var(--cor3);
 }
