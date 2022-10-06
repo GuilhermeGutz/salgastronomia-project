@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'roadrage';
+  src: url('../font/road-rage.otf') format('opentype');
+}
+
+:root {
+  --cor0: #000000; 
+  --cor1: #16191e;
+  --cor2: #6f6f6f;
+  --cor3: #a7a7a7;
+  --cor4: #dddddd;
+  --cor5: #ffffff;
+  --cor6: #f5a637;
+  --cor7: #F3D878;
+  --cor8: #89F378;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #login {
+    width: 80vw;
+  }
+
+  #imagem {
+    background: var(--cor0) url(../imagens/sal-login-tablet.svg) no-repeat;
+    background-position: center center;
+    float: left;
+    width: 45%;
+    height: 100%;
+  }
+
+  #formulario {
+    float: right;
+    width: 55%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #login {
+    width: 950px;
+  }
+
+  #imagem {
+    background: var(--cor1) url(../imagens/sal-login-desktop.svg) no-repeat;
+    background-position: left center;
+    width: 100%;
+    height: 55%;
+  }
+
+  #formulario > p {
+    font-size: 1.2em;
+  }
+}
