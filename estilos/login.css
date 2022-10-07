@@ -22,6 +22,10 @@
   --cor6: #f5a637;
   --cor7: #F3D878;
   --cor8: #89F378;
+  --cor9: #9e2828;
+  --cor10: #e50914;
+  --cor11: #db0510;
+  --cor12: #F90000;
 }
 
 html, body {
@@ -46,7 +50,7 @@ main {
   width: 250px;
   height: 500px;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px #f5a6376c; /*#ffffff4b*/
+  box-shadow: 0px 0px 10px #ffffff6c; /*#ffffff4b*/ /*#f5a6376c*/
   transition: width 0.3s , height 0.3s;
   transition-timing-function: ease;
 }
@@ -70,5 +74,41 @@ main {
 }
 
 #formulario > p {
+  font-size: 0.8em;
+}
+
+.box-login {
+  display: block;
+  margin: 10px 0px;
+}
+
+.box-login > label{
+  display: none;
+}
+
+form > input[type=submit]{
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 35px;
+  margin-top: 20px;
+  background-color: var(--cor11);
+  color: var(--cor5);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+  background-color: var(--cor10);
+}
+
+form > a.esquecisenha {
+  display: block;
+  font-size: 1em;
+  padding-top: 15px;
+}
+
+form > a.esquecisenha > span {
   font-size: 0.8em;
 }
